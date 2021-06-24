@@ -53,18 +53,14 @@ while True:
             xl1, yl1 = lndmrks[1][4][1], lndmrks[1][4][2]
             xl2, yl2 = lndmrks[1][8][1], lndmrks[1][8][2]
             distl = math.hypot(xl2 - xl1, yl2 - yl1)
-            # cv2.circle(frame, (xl1, yl1), 5, (155, 25, 100), cv2.FILLED)
-            # cv2.circle(frame, (xl2, yl2), 5, (155, 25, 100), cv2.FILLED)
-
+            
             t1 = threading.Thread(target=setVolume, args=(dist,))
             t2 = threading.Thread(target=setBrightness, args=(distl,))
-            # setVolume(dist)
-            # setBrightness(distl)
+            
             t1.start()
             t2.start()
 
-        # cv2.circle(frame,(xr1,yr1),5,(255,125,100),cv2.FILLED)
-        # cv2.circle(frame, (xr2, yr2), 5, (255, 125, 100), cv2.FILLED)
+       
 
     cv2.imshow("stream",frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
