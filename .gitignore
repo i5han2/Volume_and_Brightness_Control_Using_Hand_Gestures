@@ -145,3 +145,7 @@ pyvenv.cfg
 pip-selfcheck.json
 
 .idea
+!/brightnessControl.py
+!/main.py
+!/volumecontrol.py
+!/test.py
