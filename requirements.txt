@@ -1,0 +1,16 @@
+absl-py==0.12.0
+attrs==21.2.0
+comtypes==1.1.10
+enum34==1.1.10
+future==0.18.2
+mediapipe==0.8.5
+numpy==1.20.3
+opencv-contrib-python==4.5.2.54
+opencv-python==4.5.2.54
+protobuf==3.17.3
+psutil==5.8.0
+pycaw==20181226
+pywin32==301
+screen-brightness-control==0.8.6
+six==1.16.0
+WMI==1.5.1
