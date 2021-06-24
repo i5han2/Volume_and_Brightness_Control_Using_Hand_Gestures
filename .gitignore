@@ -149,3 +149,8 @@ pip-selfcheck.json
 !/main.py
 !/volumecontrol.py
 !/test.py
+/demo/demo.mp4
+/demo/demo_final.mp4
+/demo/demo_Trim.mp4
+/demo/demo_vid.mp4
+/test.py
